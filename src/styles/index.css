@@ -25,7 +25,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: white 1px solid;
+    /* border: white 1px solid; */
 }
 
 .col2{
@@ -37,7 +37,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: white 1px solid;
+    /* border: white 1px solid; */
     padding-right: 40px;
 }
 
@@ -89,10 +89,14 @@ body{
     display: flex;
 }
 
-.send{
+.send a{
+    display: flex;
     height: 40px;
     width: 50px;
     background-color: #8257E5;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
 }
 
 .div-input{
@@ -101,9 +105,26 @@ body{
     position: absolute;
 }
 
+.read-more{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 15%;
+    color: #8257E5;
+}
+
 ::placeholder{
     font-size: 12px;
     color: #929292;
+}
+
+a{
+    color: #8257E5;
+    text-decoration: none;
+}
+
+a:hover{
+    transition: 0.4s;
+    color: #9c75f7;
 }
 
 input{
@@ -111,6 +132,7 @@ input{
     border: #E1E1E6;
     width: 110%;
     height: 40px;
+    /* box-shadow: 3px 4px #1a1a1f; */
 }
 
 input:hover{
@@ -126,6 +148,11 @@ h3{
 h5{
     color: #E1E1E6;
     font-size: 16px;
+}
+
+.send i{
+    font-size: 20px;
+    margin-left: -2px;
 }
 
 @media (max-width: 500px) {
