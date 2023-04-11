@@ -1,0 +1,99 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #121214;
+}
+
+.container{
+    display: flex;
+    gap: 0rem;
+}
+
+.col1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 100%;
+    flex: 2;
+    gap: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: white 1px solid;
+}
+
+.col2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 100%;
+    flex: 25%;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: white 1px solid;
+    padding-right: 40px;
+}
+
+.header-titulo img{
+    height: 30%;
+    width: 61%;
+    margin-top: 0%;
+}
+
+.body{
+    margin-left: 5%;
+}
+
+.body-title{
+    margin-top: 13%;
+}
+
+.body-subtitle{
+    padding-top: 2%;
+}
+
+.body-comentario{
+    padding-top: 2%;
+    color: #dadada;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+}
+
+.div-email{
+    margin-top: 6%;
+}
+
+.div-email p{
+    color: #929292;
+    letter-spacing: 0.3px;
+    font-size: 15px;
+    padding-bottom: 2%;
+    font-weight: bold;
+}
+
+input{
+    width: 110%;
+}
+
+h3{
+    color: #08C05E;
+    font-size: 25px;
+}
+
+h5{
+    color: #E1E1E6;
+    font-size: 16px;
+}
+
+@media (max-width: 500px) {
+    .col2 {
+        display: none;
+    }
+}
